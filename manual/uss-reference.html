@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>USS reference | UIT Graphs </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="USS reference | UIT Graphs ">
+    
+    
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo-small.png" alt="UIT Graphs">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+            <div class="container" style="
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+            ">
+                <div class="container hide-when-search" id="breadcrumb">
+                 <ul class="breadcrumb">
+                   <li></li>
+                 </ul>
+                </div>
+                <div class="container" style="
+                    width: 80px;
+                    line-height: 40px;
+                "><b>v1.0.0</b></div>
+          </div>
+        </div>      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="uss-reference">USS reference</h1>
+
+<h2 id="graph-canvas">Graph Canvas</h2>
+<table>
+<thead>
+<tr>
+<th>USS property</th>
+<th>C# reference</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>--graph-border-width</code></td>
+<td><code>graph.Theme.Border.Width</code></td>
+<td><code>float</code></td>
+<td>Sets border's line width.</td>
+</tr>
+<tr>
+<td><code>--graph-border-dash-pattern</code></td>
+<td><code>graph.Theme.Border.DashPattern</code></td>
+<td><code>string</code></td>
+<td>Sets border's dash pattern. This should be provided as <code>string</code> with space separeted values, e.g. <code>&quot;2 2&quot;</code>.</td>
+</tr>
+<tr>
+<td><code>--graph-border-color</code></td>
+<td><code>graph.Theme.Border.Color</code></td>
+<td><code>color</code></td>
+<td>Sets border's color.</td>
+</tr>
+<tr>
+<td><code>--graph-border-bits</code></td>
+<td><code>graph.Theme.Border.Bits</code></td>
+<td><code>int</code></td>
+<td>Sets border's bits. Learn more about &quot;bits&quot; in the following <a href="tutorial/border.html#bits">tutorial</a>.</td>
+</tr>
+<tr>
+<td><code>--graph-tics-width</code></td>
+<td><code>graph.Theme.Tics.Width</code></td>
+<td><code>float</code></td>
+<td>Sets tics's width.</td>
+</tr>
+<tr>
+<td><code>--graph-tics-length</code></td>
+<td><code>graph.Theme.Tics.Length</code></td>
+<td><code>float</code></td>
+<td>Sets tics's length.</td>
+</tr>
+<tr>
+<td><code>--graph-tics-dash-pattern</code></td>
+<td><code>graph.Theme.Tics.DashPattern</code></td>
+<td><code>string</code></td>
+<td>Sets tics's dash pattern. This should be provided as <code>string</code> with space separeted values, e.g. <code>&quot;2 2&quot;</code>.</td>
+</tr>
+<tr>
+<td><code>--graph-tics-bits</code></td>
+<td><code>graph.Theme.Tics.Bits</code></td>
+<td><code>int</code></td>
+<td>Sets tics's bits. Learn more about &quot;bits&quot; in the following <a href="tutorial/border.html#bits">tutorial</a>.</td>
+</tr>
+<tr>
+<td><code>--graph-tics-color</code></td>
+<td><code>graph.Theme.Tics.Color</code></td>
+<td><code>color</code></td>
+<td>Sets tics's color.</td>
+</tr>
+<tr>
+<td><code>--graph-tics-direction</code></td>
+<td><code>graph.Theme.Tics.Direction</code></td>
+<td><code>enum</code></td>
+<td>Sets tics's direction. Possible values: <code>none</code>, <code>in</code>, <code>out</code>, or <code>both</code>.</td>
+</tr>
+<tr>
+<td><code>--graph-xtics-rotation</code></td>
+<td><code>graph.XAxis.TicsRotation</code></td>
+<td><code>float</code></td>
+<td>Sets xtics's rotation in degrees.</td>
+</tr>
+<tr>
+<td><code>--graph-ytics-rotation</code></td>
+<td><code>graph.YAxis.TicsRotation</code></td>
+<td><code>float</code></td>
+<td>Sets ytics's rotation in degrees.</td>
+</tr>
+<tr>
+<td><code>--graph-xlabel-rotation</code></td>
+<td><code>graph.XAxis.LabelRotation</code></td>
+<td><code>float</code></td>
+<td>Sets xlabel's rotation in degrees.</td>
+</tr>
+<tr>
+<td><code>--graph-ylabel-rotation</code></td>
+<td><code>graph.YAxis.LabelRotation</code></td>
+<td><code>float</code></td>
+<td>Sets ylabel's rotation in degrees.</td>
+</tr>
+<tr>
+<td><code>--graph-grid-color</code></td>
+<td><code>graph.Theme.Grid.Color</code></td>
+<td><code>color</code></td>
+<td>Sets grid's color.</td>
+</tr>
+<tr>
+<td><code>--graph-grid-width</code></td>
+<td><code>graph.Theme.Grid.Width</code></td>
+<td><code>float</code></td>
+<td>Sets grid's width.</td>
+</tr>
+<tr>
+<td><code>--graph-grid-dash-pattern</code></td>
+<td><code>graph.Theme.Grid.DashPattern</code></td>
+<td><code>string</code></td>
+<td>Sets grid's dash pattern. This should be provided as <code>string</code> with space separeted values, e.g. <code>&quot;2 2&quot;</code>.</td>
+</tr>
+<tr>
+<td><code>--graph-key-position</code></td>
+<td><code>graph.Theme.Key.Position</code></td>
+<td><code>enum</code></td>
+<td>Sets key's position. Learn more about key in the following <a href="tutorial/key.html">tutorial</a>.</td>
+</tr>
+<tr>
+<td><code>--graph-key-visibility</code></td>
+<td><code>graph.Theme.Key.Visibility</code></td>
+<td><code>enum</code></td>
+<td>Sets key's visibility. Possible values: <code>auto</code>, <code>always</code>, <code>never</code>, or <code>manual</code>. Learn more about key in the following <a href="tutorial/key.html">tutorial</a>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="plot-with-lines">Plot With Lines</h2>
+<table>
+<thead>
+<tr>
+<th>USS property</th>
+<th>C# reference</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>--graph-line-color</code></td>
+<td><code>plot.Theme.LineColor</code></td>
+<td><code>color</code></td>
+<td>Sets line's color.</td>
+</tr>
+<tr>
+<td><code>--graph-line-width</code></td>
+<td><code>plot.Theme.LineWidth</code></td>
+<td><code>float</code></td>
+<td>Sets line's width.</td>
+</tr>
+<tr>
+<td><code>--graph-line-dash-pattern</code></td>
+<td><code>plot.Theme.LineDashPattern</code></td>
+<td><code>string</code></td>
+<td>Sets line's dash pattern. This should be provided as <code>string</code> with space separeted values, e.g. <code>&quot;2 2&quot;</code>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="plot-with-lines-points">Plot With Lines Points</h2>
+<table>
+<thead>
+<tr>
+<th>USS property</th>
+<th>C# reference</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>--graph-line-color</code></td>
+<td><code>plot.Theme.LineColor</code></td>
+<td><code>color</code></td>
+<td>Sets line's color.</td>
+</tr>
+<tr>
+<td><code>--graph-line-width</code></td>
+<td><code>plot.Theme.LineWidth</code></td>
+<td><code>float</code></td>
+<td>Sets line's width.</td>
+</tr>
+<tr>
+<td><code>--graph-line-dash-pattern</code></td>
+<td><code>plot.Theme.LineDashPattern</code></td>
+<td><code>string</code></td>
+<td>Sets line's dash pattern. This should be provided as <code>string</code> with space separeted values, e.g. <code>&quot;2 2&quot;</code>.</td>
+</tr>
+<tr>
+<td><code>--graph-point-color</code></td>
+<td><code>plot.Theme.PointColor</code></td>
+<td><code>color</code></td>
+<td>Sets point's color (stroke).</td>
+</tr>
+<tr>
+<td><code>--graph-point-fill-color</code></td>
+<td><code>plot.Theme.PointFillColor</code></td>
+<td><code>color</code></td>
+<td>Sets point's fill color.</td>
+</tr>
+<tr>
+<td><code>--graph-point-width</code></td>
+<td><code>plot.Theme.PointWidth</code></td>
+<td><code>float</code></td>
+<td>Sets point's width (stroke).</td>
+</tr>
+<tr>
+<td><code>--graph-point-size</code></td>
+<td><code>plot.Theme.PointSize</code></td>
+<td><code>float</code></td>
+<td>Sets point's size.</td>
+</tr>
+<tr>
+<td><code>--graph-point-style</code></td>
+<td><code>plot.Theme.PointStyle</code></td>
+<td><code>int</code></td>
+<td>Sets point's style id number.</td>
+</tr>
+<tr>
+<td><code>--graph-point-dash-pattern</code></td>
+<td><code>plot.Theme.PointDashPattern</code></td>
+<td><code>string</code></td>
+<td>Sets point's dash pattern. This should be provided as <code>string</code> with space separeted values, e.g. <code>&quot;2 2&quot;</code>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="plot-with-points">Plot With Points</h2>
+<table>
+<thead>
+<tr>
+<th>USS property</th>
+<th>C# reference</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>--graph-point-color</code></td>
+<td><code>plot.Theme.PointColor</code></td>
+<td><code>color</code></td>
+<td>Sets point's color (stroke).</td>
+</tr>
+<tr>
+<td><code>--graph-point-fill-color</code></td>
+<td><code>plot.Theme.PointFillColor</code></td>
+<td><code>color</code></td>
+<td>Sets point's fill color.</td>
+</tr>
+<tr>
+<td><code>--graph-point-width</code></td>
+<td><code>plot.Theme.PointWidth</code></td>
+<td><code>float</code></td>
+<td>Sets point's width (stroke).</td>
+</tr>
+<tr>
+<td><code>--graph-point-size</code></td>
+<td><code>plot.Theme.PointSize</code></td>
+<td><code>float</code></td>
+<td>Sets point's size.</td>
+</tr>
+<tr>
+<td><code>--graph-point-style</code></td>
+<td><code>plot.Theme.PointStyle</code></td>
+<td><code>int</code></td>
+<td>Sets point's style id number.</td>
+</tr>
+<tr>
+<td><code>--graph-point-dash-pattern</code></td>
+<td><code>plot.Theme.PointDashPattern</code></td>
+<td><code>string</code></td>
+<td>Sets point's dash pattern. This should be provided as <code>string</code> with space separeted values, e.g. <code>&quot;2 2&quot;</code>.</td>
+</tr>
+</tbody>
+</table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Generated by <strong>DocFX</strong> | Documentation © 2026 by <a href="https://github.com/andywiecko">Andrzej Więckowski</a> is licensed under CC BY 4.0
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/default/partials -->
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/statictoc/partials -->
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <style>
+    .hljs {
+        background: #f5f5f5;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  </body>
+</html>
