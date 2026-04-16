@@ -1219,6 +1219,11 @@
     "title": "Changelog | UIT Graphs",
     "summary": "Changelog 1.0.0 - TBA Added Initial release of the package, including core components: Graph, GraphCanvas, Tics, Key, and KeyElement. Introduced plot types: PlotWithLines PlotWithLinesPoints PlotWithPoints Added the Sequence utility for fast and analytical plot series definition."
   },
+  "changelog/index.html": {
+    "href": "changelog/index.html",
+    "title": "",
+    "summary": ""
+  },
   "index.html": {
     "href": "index.html",
     "title": "",
@@ -1297,7 +1302,7 @@
   "manual/plot-types/index.html": {
     "href": "manual/plot-types/index.html",
     "title": "Plot types | UIT Graphs",
-    "summary": "Plot types In this section, you can learn about different plot types available in the package. Plot with lines Plot with points Plot with lines points"
+    "summary": "Plot types In this section, you can learn about different plot types available in the package. Plot preview Description Plot with lines Plot with points Plot with lines points"
   },
   "manual/plot-types/plot-with-lines-points.html": {
     "href": "manual/plot-types/plot-with-lines-points.html",
