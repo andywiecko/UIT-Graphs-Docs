@@ -94,14 +94,14 @@
 <div class="markdown level0 conceptual"></div>
 
 <a id="andywiecko_graphs_GraphCanvas_AddPlot_" data-uid="andywiecko.graphs.GraphCanvas.AddPlot*"></a>
-<h4 id="andywiecko_graphs_GraphCanvas_AddPlot__1___0_" data-uid="andywiecko.graphs.GraphCanvas.AddPlot``1(``0)">AddPlot&lt;T&gt;(T)</h4>
+<h4 id="andywiecko_graphs_GraphCanvas_AddPlot__1___0_System_Boolean_" data-uid="andywiecko.graphs.GraphCanvas.AddPlot``1(``0,System.Boolean)">AddPlot&lt;T&gt;(T, bool)</h4>
 <div class="markdown level1 summary"><p>Adds the specified <code class="paramref">plot</code> to this canvas.
 Also applies the next USS style from <a class="xref" href="andywiecko.graphs.Graph.DefaultStyleNames.html">DefaultStyleNames</a> to the <code class="paramref">plot</code>.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 <h5 class="declaration">Declaration</h5>
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public T AddPlot&lt;T&gt;(T plot) where T : VisualElement, IPlot</code></pre>
+  <pre><code class="lang-csharp hljs">public T AddPlot&lt;T&gt;(T plot, bool lockRecalculateSequences = false) where T : VisualElement, IPlot</code></pre>
 </div>
 <h5 class="parameters">Parameters</h5>
 <table class="table table-bordered table-condensed">
@@ -117,6 +117,13 @@ Also applies the next USS style from <a class="xref" href="andywiecko.graphs.Gra
       <td><span class="xref">T</span></td>
       <td><span class="parametername">plot</span></td>
       <td><p>The plot to attach to the canvas.</p>
+</td>
+    </tr>
+    <tr>
+      <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+      <td><span class="parametername">lockRecalculateSequences</span></td>
+      <td><p>Internally used to lock <a class="xref" href="andywiecko.graphs.Sequence.html">Sequence</a> recalculation when non-<a class="xref" href="andywiecko.graphs.Sequence.html">Sequence</a> plot data is provided.
+This ensures deterministic graph results regardless of plotting order when mixing <a class="xref" href="andywiecko.graphs.Sequence.html">Sequence</a> and non-<a class="xref" href="andywiecko.graphs.Sequence.html">Sequence</a> data series.</p>
 </td>
     </tr>
   </tbody>

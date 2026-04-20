@@ -1354,15 +1354,15 @@ references:
   commentId: Overload:andywiecko.graphs.GraphCanvas.AddPlot
   fullName: andywiecko.graphs.GraphCanvas.AddPlot
   nameWithType: GraphCanvas.AddPlot
-- uid: andywiecko.graphs.GraphCanvas.AddPlot``1(``0)
-  name: AddPlot<T>(T)
-  href: api/andywiecko.graphs.GraphCanvas.AddPlot.html#andywiecko_graphs_GraphCanvas_AddPlot__1___0_
-  commentId: M:andywiecko.graphs.GraphCanvas.AddPlot``1(``0)
-  name.vb: AddPlot(Of T)(T)
-  fullName: andywiecko.graphs.GraphCanvas.AddPlot<T>(T)
-  fullName.vb: andywiecko.graphs.GraphCanvas.AddPlot(Of T)(T)
-  nameWithType: GraphCanvas.AddPlot<T>(T)
-  nameWithType.vb: GraphCanvas.AddPlot(Of T)(T)
+- uid: andywiecko.graphs.GraphCanvas.AddPlot``1(``0,System.Boolean)
+  name: AddPlot<T>(T, bool)
+  href: api/andywiecko.graphs.GraphCanvas.AddPlot.html#andywiecko_graphs_GraphCanvas_AddPlot__1___0_System_Boolean_
+  commentId: M:andywiecko.graphs.GraphCanvas.AddPlot``1(``0,System.Boolean)
+  name.vb: AddPlot(Of T)(T, Boolean)
+  fullName: andywiecko.graphs.GraphCanvas.AddPlot<T>(T, bool)
+  fullName.vb: andywiecko.graphs.GraphCanvas.AddPlot(Of T)(T, Boolean)
+  nameWithType: GraphCanvas.AddPlot<T>(T, bool)
+  nameWithType.vb: GraphCanvas.AddPlot(Of T)(T, Boolean)
 - uid: andywiecko.graphs.GraphCanvas.Box
   name: Box
   href: api/andywiecko.graphs.GraphCanvas.Box.html#andywiecko_graphs_GraphCanvas_Box
