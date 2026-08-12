@@ -64,7 +64,9 @@
         </div>
 
         <script>
-        fetch("/versions.html")
+        const base = "/UIT-Graphs-Docs/";
+
+        fetch(base + "versions.html")
           .then(res => res.text())
           .then(html => {
             document.getElementById("version-switcher").innerHTML = html;
@@ -78,7 +80,7 @@
           });
 
         function goToVersion(version) {
-            window.location.href = "/" + version;
+            window.location.href = base + version;
         }
 
         </script>      </header>
