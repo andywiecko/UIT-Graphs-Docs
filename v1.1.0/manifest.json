@@ -15,34 +15,6 @@
       "source_relative_path": "api/andywiecko.graphs.AABB.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.AABB.P1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.AABB.P1",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.AABB.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.AABB.P2.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.AABB.P2",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.AABB.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.AABB.P3.html"
         }
       },
@@ -155,20 +127,6 @@
       "source_relative_path": "api/andywiecko.graphs.AABB.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.AABB.Contains.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.AABB.Contains",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.AABB.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.AABB.Equals.html"
         }
       },
@@ -183,13 +141,13 @@
       "source_relative_path": "api/andywiecko.graphs.AABB.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.AABB.op_Equality.html"
+          "relative_path": "api/andywiecko.graphs.AABB.Contains.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.AABB.operator ==",
+      "Title": "andywiecko.graphs.AABB.Contains",
       "Summary": null
     },
     {
@@ -264,6 +222,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.AABB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.AABB.P1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.AABB.P1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.AABB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.AABB.P2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.AABB.P2",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.AABB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.AABB.op_Equality.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.AABB.operator ==",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/andywiecko.graphs.BorderBits.yml",
       "output": {
         ".html": {
@@ -309,20 +309,6 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.CircleStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.CircleStyle.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.CircleStyle",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.CircleStyle.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.DefaultPointStyles.CircleStyle.Draw.html"
         }
       },
@@ -330,6 +316,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.DefaultPointStyles.CircleStyle.Draw",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.CircleStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.CircleStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.CircleStyle",
       "Summary": null
     },
     {
@@ -365,20 +365,6 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.DiamondFilledStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.DiamondFilledStyle.Draw.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.DiamondFilledStyle.Draw",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.DiamondFilledStyle.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.DefaultPointStyles.DiamondFilledStyle.html"
         }
       },
@@ -386,6 +372,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.DefaultPointStyles.DiamondFilledStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.DiamondFilledStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.DiamondFilledStyle.Draw.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.DiamondFilledStyle.Draw",
       "Summary": null
     },
     {
@@ -477,20 +477,6 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.PentagonStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.PentagonStyle.Draw.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.PentagonStyle.Draw",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.PentagonStyle.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.DefaultPointStyles.PentagonStyle.html"
         }
       },
@@ -498,6 +484,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.DefaultPointStyles.PentagonStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.PentagonStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.PentagonStyle.Draw.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.PentagonStyle.Draw",
       "Summary": null
     },
     {
@@ -589,20 +589,6 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.StarStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.StarStyle.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.StarStyle",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.StarStyle.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.DefaultPointStyles.StarStyle.Draw.html"
         }
       },
@@ -610,6 +596,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.DefaultPointStyles.StarStyle.Draw",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.StarStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.StarStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.StarStyle",
       "Summary": null
     },
     {
@@ -701,20 +701,6 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleUpStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleUpStyle.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.TriangleUpStyle",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleUpStyle.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleUpStyle.Draw.html"
         }
       },
@@ -722,6 +708,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.DefaultPointStyles.TriangleUpStyle.Draw",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleUpStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleUpStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.TriangleUpStyle",
       "Summary": null
     },
     {
@@ -743,41 +743,13 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.html"
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Star.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.DefaultPointStyles.yml\" sourcestartlinenumber=\"1\">Provides default <xref href=\"andywiecko.graphs.IPointStyle\" data-throw-if-not-resolved=\"false\"></xref> implementations and shared instances.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Collection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.Collection",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.DefaultPointStyles.yml\" sourcestartlinenumber=\"1\">Collection of default point styles used in plots.\nYou can reorder, add, or replace items with custom implementations.\nSee the tutorial for more details.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.PentagonFilled.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.PentagonFilled",
+      "Title": "andywiecko.graphs.DefaultPointStyles.Star",
       "Summary": null
     },
     {
@@ -785,13 +757,83 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Pentagon.html"
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Square.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.Pentagon",
+      "Title": "andywiecko.graphs.DefaultPointStyles.Square",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.SquareFilled.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.SquareFilled",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Circle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.Circle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.CircleFilled.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.CircleFilled",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleUp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.TriangleUp",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleDown.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.TriangleDown",
       "Summary": null
     },
     {
@@ -827,34 +869,6 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Plus.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.Plus",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleDown.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.TriangleDown",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleUpFilled.html"
         }
       },
@@ -869,13 +883,13 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.TriangleUp.html"
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Pentagon.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.TriangleUp",
+      "Title": "andywiecko.graphs.DefaultPointStyles.Pentagon",
       "Summary": null
     },
     {
@@ -883,13 +897,13 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.CircleFilled.html"
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.PentagonFilled.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.CircleFilled",
+      "Title": "andywiecko.graphs.DefaultPointStyles.PentagonFilled",
       "Summary": null
     },
     {
@@ -897,13 +911,41 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Circle.html"
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Collection.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.Circle",
+      "Title": "andywiecko.graphs.DefaultPointStyles.Collection",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.DefaultPointStyles.yml\" sourcestartlinenumber=\"1\">Collection of default point styles used in plots.\nYou can reorder, add, or replace items with custom implementations.\nSee the tutorial for more details.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.DefaultPointStyles.yml\" sourcestartlinenumber=\"1\">Provides default <xref href=\"andywiecko.graphs.IPointStyle\" data-throw-if-not-resolved=\"false\"></xref> implementations and shared instances.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Cross.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.DefaultPointStyles.Cross",
       "Summary": null
     },
     {
@@ -911,41 +953,13 @@
       "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.SquareFilled.html"
+          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Plus.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.SquareFilled",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Square.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.Square",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Star.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.Star",
+      "Title": "andywiecko.graphs.DefaultPointStyles.Plus",
       "Summary": null
     },
     {
@@ -964,16 +978,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.DefaultPointStyles.yml",
+      "source_relative_path": "api/andywiecko.graphs.Enums.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.DefaultPointStyles.Cross.html"
+          "relative_path": "api/andywiecko.graphs.Enums.ResetKeyStyle.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.DefaultPointStyles.Cross",
+      "Title": "andywiecko.graphs.Enums.ResetKeyStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Enums.ParseKeyPosition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Enums.ParseKeyPosition",
       "Summary": null
     },
     {
@@ -1034,34 +1062,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Enums.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Enums.ParseKeyPosition.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Enums.ParseKeyPosition",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Enums.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Enums.ResetKeyStyle.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Enums.ResetKeyStyle",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/andywiecko.graphs.FillBaseline.yml",
       "output": {
         ".html": {
@@ -1079,27 +1079,13 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.Axis.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.Axis.Label.html"
+          "relative_path": "api/andywiecko.graphs.Graph.Axis.Min.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.Axis.Label",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.Axis.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.Axis.Max.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.Axis.Max",
+      "Title": "andywiecko.graphs.Graph.Axis.Min",
       "Summary": null
     },
     {
@@ -1114,20 +1100,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.Graph.Axis.Tics",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.Axis.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.Axis.TicsRotation.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.Axis.TicsRotation",
       "Summary": null
     },
     {
@@ -1163,13 +1135,41 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.Axis.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.Axis.Min.html"
+          "relative_path": "api/andywiecko.graphs.Graph.Axis.TicsRotation.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.Axis.Min",
+      "Title": "andywiecko.graphs.Graph.Axis.TicsRotation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.Axis.Max.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.Axis.Max",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.Axis.Label.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.Axis.Label",
       "Summary": null
     },
     {
@@ -1177,14 +1177,14 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.html"
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.Color.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.BorderStyle",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.yml\" sourcestartlinenumber=\"1\">Represents the graph's border style configuration.</p>\n"
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.BorderStyle.Color",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1198,20 +1198,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.Graph.ThemeStyle.BorderStyle.Bits",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.DashPattern.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.BorderStyle.DashPattern",
       "Summary": null
     },
     {
@@ -1233,27 +1219,55 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.Color.html"
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.DashPattern.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.BorderStyle.Color",
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.BorderStyle.DashPattern",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.BorderStyle",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.ThemeStyle.BorderStyle.yml\" sourcestartlinenumber=\"1\">Represents the graph's border style configuration.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.Display.html"
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.GridStyle.Display",
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.GridStyle",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.yml\" sourcestartlinenumber=\"1\">Represents the graph's grid style configuration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.Width.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.GridStyle.Width",
       "Summary": null
     },
     {
@@ -1275,20 +1289,6 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.GridStyle",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.yml\" sourcestartlinenumber=\"1\">Represents the graph's grid style configuration.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.DashPattern.html"
         }
       },
@@ -1303,13 +1303,13 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.Width.html"
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.GridStyle.Display.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.GridStyle.Width",
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.GridStyle.Display",
       "Summary": null
     },
     {
@@ -1373,6 +1373,20 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.yml",
       "output": {
         ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.Length.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.TicsStyle.Length",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.DashPattern.html"
         }
       },
@@ -1401,28 +1415,14 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.Length.html"
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.Color.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.TicsStyle.Length",
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.TicsStyle.Color",
       "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.TicsStyle",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.yml\" sourcestartlinenumber=\"1\">Represents the graph's tics style configuration.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1443,14 +1443,14 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.Color.html"
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.TicsStyle.Color",
-      "Summary": null
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.TicsStyle",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.ThemeStyle.TicsStyle.yml\" sourcestartlinenumber=\"1\">Represents the graph's tics style configuration.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1465,34 +1465,6 @@
       "IsMRef": true,
       "Title": "andywiecko.graphs.Graph.ThemeStyle",
       "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.ThemeStyle.yml\" sourcestartlinenumber=\"1\">Represents the graph theme style configuration.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.Border.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.Border",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.Grid.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.ThemeStyle.Grid",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1524,6 +1496,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.Border.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.Border",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.ThemeStyle.Grid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.ThemeStyle.Grid",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.Graph",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.PlotWithPoints.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.PlotWithPoints",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/andywiecko.graphs.Graph.yml",
       "output": {
         ".html": {
@@ -1541,13 +1569,97 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.Theme.html"
+          "relative_path": "api/andywiecko.graphs.Graph.PlotWithLinesPoints.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.Theme",
+      "Title": "andywiecko.graphs.Graph.PlotWithLinesPoints",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.PlotWithLines.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.PlotWithLines",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.PlotWithFilledCurves.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.PlotWithFilledCurves",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.Title.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.Title",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.yml\" sourcestartlinenumber=\"1\">Base graph class. Attach it to a root <xref href=\"UnityEngine.UIElements.VisualElement\" data-throw-if-not-resolved=\"false\"></xref> and use the plotting methods to render data series.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.DefaultStyleNames.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.DefaultStyleNames",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.yml\" sourcestartlinenumber=\"1\">Default style names applied to corresponding <xref href=\"andywiecko.graphs.IPlot\" data-throw-if-not-resolved=\"false\"></xref> instances when attached to the <xref href=\"andywiecko.graphs.GraphCanvas\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.Replot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.Replot",
       "Summary": null
     },
     {
@@ -1583,6 +1695,20 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.yml",
       "output": {
         ".html": {
+          "relative_path": "api/andywiecko.graphs.Graph.Theme.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Graph.Theme",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/andywiecko.graphs.Graph.Key.html"
         }
       },
@@ -1611,132 +1737,6 @@
       "source_relative_path": "api/andywiecko.graphs.Graph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.-ctor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.Graph",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.Replot.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.Replot",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.PlotWithFilledCurves.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.PlotWithFilledCurves",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.PlotWithLines.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.PlotWithLines",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.PlotWithLinesPoints.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.PlotWithLinesPoints",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.PlotWithPoints.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.PlotWithPoints",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.yml\" sourcestartlinenumber=\"1\">Base graph class. Attach it to a root <xref href=\"UnityEngine.UIElements.VisualElement\" data-throw-if-not-resolved=\"false\"></xref> and use the plotting methods to render data series.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.Title.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.Title",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Graph.DefaultStyleNames.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Graph.DefaultStyleNames",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.yml\" sourcestartlinenumber=\"1\">Default style names applied to corresponding <xref href=\"andywiecko.graphs.IPlot\" data-throw-if-not-resolved=\"false\"></xref> instances when attached to the <xref href=\"andywiecko.graphs.GraphCanvas\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Graph.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.Graph.PlotWithFilledBaseline.html"
         }
       },
@@ -1759,6 +1759,20 @@
       "IsMRef": true,
       "Title": "andywiecko.graphs.Graph.DefaultStyleSheet",
       "Summary": "<p sourcefile=\"api/andywiecko.graphs.Graph.yml\" sourcestartlinenumber=\"1\">The default USS style sheet attached in the constructor.\nThis reference is statically injected via <xref href=\"UnityEngine.Resources\" data-throw-if-not-resolved=\"false\"></xref>.\nSee the manual for more details.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.GraphCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.GraphCanvas.AddPlot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.GraphCanvas.AddPlot",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1818,20 +1832,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.GraphCanvas.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.GraphCanvas.AddPlot.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.GraphCanvas.AddPlot",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/andywiecko.graphs.GraphMode.yml",
       "output": {
         ".html": {
@@ -1843,6 +1843,20 @@
       "IsMRef": true,
       "Title": "andywiecko.graphs.GraphMode",
       "Summary": "<p sourcefile=\"api/andywiecko.graphs.GraphMode.yml\" sourcestartlinenumber=\"1\">Specifies whether the graph is in runtime or editor mode (light or dark theme).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.IPlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.IPlot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.IPlot",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.IPlot.yml\" sourcestartlinenumber=\"1\">Defines a plot used by <xref href=\"andywiecko.graphs.GraphCanvas\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1877,20 +1891,6 @@
       "source_relative_path": "api/andywiecko.graphs.IPlot.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.IPlot.MarkDirtyRepaint.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.IPlot.MarkDirtyRepaint",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.IPlot.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.IPlot.RecalculateBoundingBox.html"
         }
       },
@@ -1905,14 +1905,14 @@
       "source_relative_path": "api/andywiecko.graphs.IPlot.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.IPlot.html"
+          "relative_path": "api/andywiecko.graphs.IPlot.MarkDirtyRepaint.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.IPlot",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.IPlot.yml\" sourcestartlinenumber=\"1\">Defines a plot used by <xref href=\"andywiecko.graphs.GraphCanvas\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+      "Title": "andywiecko.graphs.IPlot.MarkDirtyRepaint",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1975,14 +1975,14 @@
       "source_relative_path": "api/andywiecko.graphs.ITicsProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.ITicsProvider.GetTics.html"
+          "relative_path": "api/andywiecko.graphs.ITicsProvider.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.ITicsProvider.GetTics",
-      "Summary": null
+      "Title": "andywiecko.graphs.ITicsProvider",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.ITicsProvider.yml\" sourcestartlinenumber=\"1\">Used for configuring <xref href=\"andywiecko.graphs.Graph\" data-throw-if-not-resolved=\"false\"></xref> axis tics.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2003,27 +2003,13 @@
       "source_relative_path": "api/andywiecko.graphs.ITicsProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.ITicsProvider.html"
+          "relative_path": "api/andywiecko.graphs.ITicsProvider.GetTics.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.ITicsProvider",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.ITicsProvider.yml\" sourcestartlinenumber=\"1\">Used for configuring <xref href=\"andywiecko.graphs.Graph\" data-throw-if-not-resolved=\"false\"></xref> axis tics.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Key.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Key.ResetKey.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Key.ResetKey",
+      "Title": "andywiecko.graphs.ITicsProvider.GetTics",
       "Summary": null
     },
     {
@@ -2038,6 +2024,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.Key.Key",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Key.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Key.ResetKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Key.ResetKey",
       "Summary": null
     },
     {
@@ -2073,34 +2073,6 @@
       "source_relative_path": "api/andywiecko.graphs.KeyElement.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.KeyElement.-ctor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.KeyElement.KeyElement",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.KeyElement.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.KeyElement.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.KeyElement",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.KeyElement.yml\" sourcestartlinenumber=\"1\">Represents a key entry for a given <xref href=\"andywiecko.graphs.IPlot\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.KeyElement.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.KeyElement.Title.html"
         }
       },
@@ -2123,6 +2095,34 @@
       "IsMRef": true,
       "Title": "andywiecko.graphs.KeyElement.OnDrawPreview",
       "Summary": "<p sourcefile=\"api/andywiecko.graphs.KeyElement.yml\" sourcestartlinenumber=\"1\">This event is invoked during visual content generation. By default, the <xref href=\"andywiecko.graphs.IPlot\" data-throw-if-not-resolved=\"false\"></xref> preview should register automatically.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.KeyElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.KeyElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.KeyElement",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.KeyElement.yml\" sourcestartlinenumber=\"1\">Represents a key entry for a given <xref href=\"andywiecko.graphs.IPlot\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.KeyElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.KeyElement.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.KeyElement.KeyElement",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2185,27 +2185,13 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.FillColor.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.LineDashPattern.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.FillColor",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.FillAboveColor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.FillAboveColor",
+      "Title": "andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.LineDashPattern",
       "Summary": null
     },
     {
@@ -2227,13 +2213,13 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.LineWidth.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.FillAboveColor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.LineWidth",
+      "Title": "andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.FillAboveColor",
       "Summary": null
     },
     {
@@ -2269,41 +2255,27 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.LineDashPattern.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.FillColor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.LineDashPattern",
+      "Title": "andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.FillColor",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.yml",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.LineWidth.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledBaseline",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithFilledBaseline.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing lines.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.-ctor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledBaseline.PlotWithFilledBaseline",
+      "Title": "andywiecko.graphs.PlotWithFilledBaseline.ThemeStyle.LineWidth",
       "Summary": null
     },
     {
@@ -2319,6 +2291,34 @@
       "IsMRef": true,
       "Title": "andywiecko.graphs.PlotWithFilledBaseline.RecalculateBoundingBox",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.Y0.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithFilledBaseline.Y0",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithFilledBaseline",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithFilledBaseline.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing lines.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2395,13 +2395,13 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.Y0.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledBaseline.-ctor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledBaseline.Y0",
+      "Title": "andywiecko.graphs.PlotWithFilledBaseline.PlotWithFilledBaseline",
       "Summary": null
     },
     {
@@ -2479,41 +2479,13 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.Theme.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledCurves",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithFilledCurves.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing lines.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.-ctor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledCurves.PlotWithFilledCurves",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.RecalculateBoundingBox.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledCurves.RecalculateBoundingBox",
+      "Title": "andywiecko.graphs.PlotWithFilledCurves.Theme",
       "Summary": null
     },
     {
@@ -2563,13 +2535,69 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.Theme.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.-ctor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithFilledCurves.Theme",
+      "Title": "andywiecko.graphs.PlotWithFilledCurves.PlotWithFilledCurves",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.RecalculateBoundingBox.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithFilledCurves.RecalculateBoundingBox",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithFilledCurves.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithFilledCurves",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithFilledCurves.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing lines.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.LineWidth.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithLines.ThemeStyle.LineWidth",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithLines.ThemeStyle",
       "Summary": null
     },
     {
@@ -2591,20 +2619,6 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.LineWidth.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLines.ThemeStyle.LineWidth",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.LineDashPattern.html"
         }
       },
@@ -2612,20 +2626,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.PlotWithLines.ThemeStyle.LineDashPattern",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLines.ThemeStyle.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLines.ThemeStyle",
       "Summary": null
     },
     {
@@ -2647,14 +2647,14 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithLines.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLines.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLines.-ctor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLines",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithLines.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing lines.</p>\n"
+      "Title": "andywiecko.graphs.PlotWithLines.PlotWithLines",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2675,14 +2675,14 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithLines.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLines.KeyElement.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLines.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLines.KeyElement",
-      "Summary": null
+      "Title": "andywiecko.graphs.PlotWithLines",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithLines.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing lines.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2717,13 +2717,13 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithLines.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLines.-ctor.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLines.KeyElement.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLines.PlotWithLines",
+      "Title": "andywiecko.graphs.PlotWithLines.KeyElement",
       "Summary": null
     },
     {
@@ -2759,55 +2759,13 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointWidth.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointStyle.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointWidth",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointFillColor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointFillColor",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointColor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointColor",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.LineDashPattern.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.LineDashPattern",
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointStyle",
       "Summary": null
     },
     {
@@ -2829,13 +2787,13 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.LineWidth.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointColor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.LineWidth",
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointColor",
       "Summary": null
     },
     {
@@ -2843,13 +2801,27 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointStyle.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointFillColor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointStyle",
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointFillColor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointWidth.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.PointWidth",
       "Summary": null
     },
     {
@@ -2868,58 +2840,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.-ctor.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.LineWidth.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.PlotWithLinesPoints",
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.LineWidth",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.LineDashPattern.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithLinesPoints.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing lines points.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.RecalculateBoundingBox.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.RecalculateBoundingBox",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.Theme.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.Theme",
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.ThemeStyle.LineDashPattern",
       "Summary": null
     },
     {
@@ -2941,6 +2885,20 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
       "output": {
         ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.Title.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.Title",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.Box.html"
         }
       },
@@ -2955,13 +2913,13 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.Title.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.Theme.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithLinesPoints.Title",
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.Theme",
       "Summary": null
     },
     {
@@ -2980,44 +2938,44 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.yml",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.PointSize.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.RecalculateBoundingBox.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithPoints.ThemeStyle.PointSize",
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.RecalculateBoundingBox",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.yml",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.PointDashPattern.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithPoints.ThemeStyle.PointDashPattern",
-      "Summary": null
+      "Title": "andywiecko.graphs.PlotWithLinesPoints",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithLinesPoints.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing lines points.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.yml",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.html"
+          "relative_path": "api/andywiecko.graphs.PlotWithLinesPoints.-ctor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithPoints.ThemeStyle",
+      "Title": "andywiecko.graphs.PlotWithLinesPoints.PlotWithLinesPoints",
       "Summary": null
     },
     {
@@ -3053,6 +3011,20 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.yml",
       "output": {
         ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithPoints.ThemeStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.PointWidth.html"
         }
       },
@@ -3060,6 +3032,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.PlotWithPoints.ThemeStyle.PointWidth",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.PointSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithPoints.ThemeStyle.PointSize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithPoints.ThemeStyle.PointDashPattern.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithPoints.ThemeStyle.PointDashPattern",
       "Summary": null
     },
     {
@@ -3081,20 +3081,6 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithPoints.-ctor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithPoints.PlotWithPoints",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.PlotWithPoints.RecalculateBoundingBox.html"
         }
       },
@@ -3102,62 +3088,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.PlotWithPoints.RecalculateBoundingBox",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithPoints.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithPoints",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithPoints.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing points.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithPoints.KeyElement.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithPoints.KeyElement",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithPoints.Theme.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithPoints.Theme",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.PlotWithPoints.Box.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.PlotWithPoints.Box",
       "Summary": null
     },
     {
@@ -3179,6 +3109,34 @@
       "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
       "output": {
         ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithPoints.Box.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithPoints.Box",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithPoints.KeyElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithPoints.KeyElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/andywiecko.graphs.PlotWithPoints.PointStyles.html"
         }
       },
@@ -3187,6 +3145,48 @@
       "IsMRef": true,
       "Title": "andywiecko.graphs.PlotWithPoints.PointStyles",
       "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithPoints.yml\" sourcestartlinenumber=\"1\">Collection of point styles used for drawing. Override or modify this list to provide custom styles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithPoints.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithPoints",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.PlotWithPoints.yml\" sourcestartlinenumber=\"1\">Basic plot type used for drawing points.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithPoints.Theme.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithPoints.Theme",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.PlotWithPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.PlotWithPoints.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.PlotWithPoints.PlotWithPoints",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3201,6 +3201,20 @@
       "IsMRef": true,
       "Title": "andywiecko.graphs.PointStyle",
       "Summary": "<p sourcefile=\"api/andywiecko.graphs.PointStyle.yml\" sourcestartlinenumber=\"1\">Built-in default point styles enum.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Sequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Sequence.Uniform.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Sequence.Uniform",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3274,16 +3288,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Sequence.yml",
+      "source_relative_path": "api/andywiecko.graphs.SequencePair.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Sequence.Uniform.html"
+          "relative_path": "api/andywiecko.graphs.SequencePair.Recalculate.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Sequence.Uniform",
+      "Title": "andywiecko.graphs.SequencePair.Recalculate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.SequencePair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.SequencePair.Item.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.SequencePair.this",
       "Summary": null
     },
     {
@@ -3319,34 +3347,6 @@
       "source_relative_path": "api/andywiecko.graphs.SequencePair.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.SequencePair.Recalculate.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.SequencePair.Recalculate",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.SequencePair.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.SequencePair.GetEnumerator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.SequencePair.GetEnumerator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.SequencePair.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.SequencePair.html"
         }
       },
@@ -3361,69 +3361,13 @@
       "source_relative_path": "api/andywiecko.graphs.SequencePair.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.SequencePair.Item.html"
+          "relative_path": "api/andywiecko.graphs.SequencePair.GetEnumerator.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.SequencePair.this",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Tic.op_Implicit.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Tic.implicit operator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Tic.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Tic",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Tic.yml\" sourcestartlinenumber=\"1\">Helper struct for storing a tic value and its corresponding label.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Tic.ToString.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Tic.ToString",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Tic.Deconstruct.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Tic.Deconstruct",
+      "Title": "andywiecko.graphs.SequencePair.GetEnumerator",
       "Summary": null
     },
     {
@@ -3470,6 +3414,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Tic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Tic.Deconstruct.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Tic.Deconstruct",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Tic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Tic.op_Implicit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Tic.implicit operator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Tic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Tic.ToString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Tic.ToString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Tic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Tic.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Tic",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Tic.yml\" sourcestartlinenumber=\"1\">Helper struct for storing a tic value and its corresponding label.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/andywiecko.graphs.Tics.AutoProvider.yml",
       "output": {
         ".html": {
@@ -3487,13 +3487,13 @@
       "source_relative_path": "api/andywiecko.graphs.Tics.AutoProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.AutoProvider.-ctor.html"
+          "relative_path": "api/andywiecko.graphs.Tics.AutoProvider.GetTics.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.AutoProvider.AutoProvider",
+      "Title": "andywiecko.graphs.Tics.AutoProvider.GetTics",
       "Summary": null
     },
     {
@@ -3515,27 +3515,13 @@
       "source_relative_path": "api/andywiecko.graphs.Tics.AutoProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.AutoProvider.GetTics.html"
+          "relative_path": "api/andywiecko.graphs.Tics.AutoProvider.-ctor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.AutoProvider.GetTics",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.GetTics.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.CollectionProvider.GetTics",
+      "Title": "andywiecko.graphs.Tics.AutoProvider.AutoProvider",
       "Summary": null
     },
     {
@@ -3557,20 +3543,6 @@
       "source_relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.CollectionProvider",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Tics.CollectionProvider.yml\" sourcestartlinenumber=\"1\">The provider generates tics by using <xref href=\"System.ReadOnlySpan%601\" data-throw-if-not-resolved=\"false\"></xref> collection provided in the constructor.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.-ctor.html"
         }
       },
@@ -3579,6 +3551,34 @@
       "IsMRef": true,
       "Title": "andywiecko.graphs.Tics.CollectionProvider.CollectionProvider",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.GetTics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Tics.CollectionProvider.GetTics",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Tics.CollectionProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Tics.CollectionProvider",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Tics.CollectionProvider.yml\" sourcestartlinenumber=\"1\">The provider generates tics by using <xref href=\"System.ReadOnlySpan%601\" data-throw-if-not-resolved=\"false\"></xref> collection provided in the constructor.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3599,20 +3599,6 @@
       "source_relative_path": "api/andywiecko.graphs.Tics.CombineProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.CombineProvider.GetTics.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.CombineProvider.GetTics",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tics.CombineProvider.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.Tics.CombineProvider.Version.html"
         }
       },
@@ -3620,6 +3606,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.Tics.CombineProvider.Version",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Tics.CombineProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Tics.CombineProvider.GetTics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Tics.CombineProvider.GetTics",
       "Summary": null
     },
     {
@@ -3655,20 +3655,6 @@
       "source_relative_path": "api/andywiecko.graphs.Tics.ManualProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.ManualProvider.Version.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.ManualProvider.Version",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tics.ManualProvider.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.Tics.ManualProvider.-ctor.html"
         }
       },
@@ -3676,6 +3662,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "andywiecko.graphs.Tics.ManualProvider.ManualProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Tics.ManualProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Tics.ManualProvider.Version.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Tics.ManualProvider.Version",
       "Summary": null
     },
     {
@@ -3697,13 +3697,27 @@
       "source_relative_path": "api/andywiecko.graphs.Tics.StepProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.StepProvider.Version.html"
+          "relative_path": "api/andywiecko.graphs.Tics.StepProvider.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.StepProvider.Version",
+      "Title": "andywiecko.graphs.Tics.StepProvider",
+      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Tics.StepProvider.yml\" sourcestartlinenumber=\"1\">The provider generates tics from start to end using the step size provided in the constructor.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Tics.StepProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Tics.StepProvider.GetTics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Tics.StepProvider.GetTics",
       "Summary": null
     },
     {
@@ -3725,28 +3739,28 @@
       "source_relative_path": "api/andywiecko.graphs.Tics.StepProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.StepProvider.GetTics.html"
+          "relative_path": "api/andywiecko.graphs.Tics.StepProvider.Version.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.StepProvider.GetTics",
+      "Title": "andywiecko.graphs.Tics.StepProvider.Version",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tics.StepProvider.yml",
+      "source_relative_path": "api/andywiecko.graphs.Tics.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.StepProvider.html"
+          "relative_path": "api/andywiecko.graphs.Tics.Collection.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.StepProvider",
-      "Summary": "<p sourcefile=\"api/andywiecko.graphs.Tics.StepProvider.yml\" sourcestartlinenumber=\"1\">The provider generates tics from start to end using the step size provided in the constructor.</p>\n"
+      "Title": "andywiecko.graphs.Tics.Collection",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3767,27 +3781,13 @@
       "source_relative_path": "api/andywiecko.graphs.Tics.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.Step.html"
+          "relative_path": "api/andywiecko.graphs.Tics.Combine.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.Step",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Tics.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.Collection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.Collection",
+      "Title": "andywiecko.graphs.Tics.Combine",
       "Summary": null
     },
     {
@@ -3823,13 +3823,13 @@
       "source_relative_path": "api/andywiecko.graphs.Tics.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Tics.Combine.html"
+          "relative_path": "api/andywiecko.graphs.Tics.Step.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Tics.Combine",
+      "Title": "andywiecko.graphs.Tics.Step",
       "Summary": null
     },
     {
@@ -3865,27 +3865,13 @@
       "source_relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.Clear.html"
+          "relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.Result.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Utils.TmpFilledCurves.Clear",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.-ctor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Utils.TmpFilledCurves.TmpFilledCurves",
+      "Title": "andywiecko.graphs.Utils.TmpFilledCurves.Result",
       "Summary": null
     },
     {
@@ -3907,13 +3893,41 @@
       "source_relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.Result.html"
+          "relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.-ctor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Utils.TmpFilledCurves.Result",
+      "Title": "andywiecko.graphs.Utils.TmpFilledCurves.TmpFilledCurves",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Utils.TmpFilledCurves.Clear.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Utils.TmpFilledCurves.Clear",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/andywiecko.graphs.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/andywiecko.graphs.Utils.ParseDashPattern.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "andywiecko.graphs.Utils.ParseDashPattern",
       "Summary": null
     },
     {
@@ -3935,13 +3949,13 @@
       "source_relative_path": "api/andywiecko.graphs.Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Utils.ColorWithAlpha.html"
+          "relative_path": "api/andywiecko.graphs.Utils.Clip.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Utils.ColorWithAlpha",
+      "Title": "andywiecko.graphs.Utils.Clip",
       "Summary": null
     },
     {
@@ -3991,20 +4005,6 @@
       "source_relative_path": "api/andywiecko.graphs.Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Utils.ParseDashPattern.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "andywiecko.graphs.Utils.ParseDashPattern",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/andywiecko.graphs.Utils.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/andywiecko.graphs.Utils.CalculateAABB.html"
         }
       },
@@ -4019,13 +4019,13 @@
       "source_relative_path": "api/andywiecko.graphs.Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/andywiecko.graphs.Utils.Clip.html"
+          "relative_path": "api/andywiecko.graphs.Utils.ColorWithAlpha.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "andywiecko.graphs.Utils.Clip",
+      "Title": "andywiecko.graphs.Utils.ColorWithAlpha",
       "Summary": null
     },
     {

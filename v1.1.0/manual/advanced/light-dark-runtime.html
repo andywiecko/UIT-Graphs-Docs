@@ -72,7 +72,7 @@
             document.getElementById("version-switcher").innerHTML = html;
 
             const select = document.getElementById("versions");
-            const version = window.location.pathname.split("/")[1];
+            const version = window.location.pathname.split("/")[2];
 
             if (select) {
                 select.value = version;
