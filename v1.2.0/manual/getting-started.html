@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Getting started | UIT Graphs </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Getting started | UIT Graphs ">
+    
+    
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo-small.png" alt="UIT Graphs">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+            <div class="container" style="
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+            ">
+                <div class="container hide-when-search" id="breadcrumb">
+                 <ul class="breadcrumb">
+                   <li></li>
+                 </ul>
+                </div>
+                <div class="hide-when-search" id="version-switcher"></div>
+          </div>
+        </div>
+
+        <script>
+        const base = "/UIT-Graphs-Docs/";
+
+        fetch(base + "versions.html")
+          .then(res => res.text())
+          .then(html => {
+            document.getElementById("version-switcher").innerHTML = html;
+
+            const select = document.getElementById("versions");
+            const version = window.location.pathname.split("/")[2];
+
+            if (select) {
+                select.value = version;
+            }
+          });
+
+        function goToVersion(version) {
+            window.location.href = base + version;
+        }
+
+        </script>      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="getting-started">Getting started</h1>
+
+<h2 id="installation">Installation</h2>
+<p>Since this is a closed-source project, pre-built packages are not provided, and the package is not published via UPM for easy updates.
+However, this may be introduced in the future for convenience.
+For now, you can install the package via a tarball or by manually copying the files.</p>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_installation-tarbal" role="tab" aria-controls="tabpanel_1_installation-tarbal" data-tab="installation-tarbal" tabindex="0" aria-selected="true">tarball</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_installation-manual" role="tab" aria-controls="tabpanel_1_installation-manual" data-tab="installation-manual" tabindex="-1">manual</a>
+</li>
+</ul>
+<section id="tabpanel_1_installation-tarbal" role="tabpanel" data-tab="installation-tarbal">
+
+<p>Open the Package Manager via <code>Window &gt; Package Manager</code>.
+Click the <code>+</code> button and select <code>Install package from tarball...</code> to install the package.</p>
+<br>
+<p align="center"><img src="../images/getting-started-03.png" width="600"></p>
+<br>
+</section>
+<section id="tabpanel_1_installation-manual" role="tabpanel" data-tab="installation-manual" aria-hidden="true" hidden="hidden">
+
+<p>The package can be installed as an embedded package.
+Download the files from the Unity Asset Store, then copy and extract them into the <code>Packages/</code> folder of your Unity project.</p>
+<br>
+<p align="center"><img src="../images/getting-started-02.png" width="400"></p>
+<br>
+</section>
+</div>
+<h2 id="quick-start">Quick start</h2>
+<p>The core class provided by this package is <a class="xref" href="../api/andywiecko.graphs.Graph.html"><code>Graph</code></a>, which exposes methods for drawing and style customization.
+You can learn more about it in the <a href="tutorial/index.html">Tutorial</a> section.
+Below, we create an array of random <a class="xref" href="https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/api/Unity.Mathematics.float2.html"><code>float2</code></a> points and plot them using the default settings.
+Finally, we attach the <a class="xref" href="../api/andywiecko.graphs.Graph.html"><code>Graph</code></a> to a root <a class="xref" href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/UIElements.VisualElement.html"><code>VisualElement</code></a> (for example, from a UI Document or a custom editor/inspector UI).</p>
+<pre><code class="lang-csharp">var random = new Unity.Mathematics.Random(seed: 42);
+var data = new float2[64];
+foreach (ref var i in data.AsSpan()) i = random.NextFloat2();
+
+var graph = new Graph();
+graph.PlotWithPoints(data);
+
+root.Add(graph);
+</code></pre>
+<br>
+<p align="center"><img src="../images/getting-started-01.png" width="300"></p>
+<br>
+<h2 id="demo-scene">Demo scene</h2>
+<p>The package also includes a demo scene located in the <code>Samples~/</code> folder.<br>
+You can manually copy these files into your <code>Assets/</code> folder to explore a fully working example.
+Alternatively, you can open the Package Manager and import the demo using the <code>Import</code> button.</p>
+<br>
+<p align="center"><img src="../images/getting-started-04.png" width="600"></p>
+<br>
+<p>In the demo scene, aside from the basic <code>GameObject</code>s such as the camera and light, you will find two components with attached demo scripts for editor and runtime graphs, respectively.
+When you enter Play Mode, the result should be similar to the animation below:</p>
+<br>
+<p align="center"><img src="../images/getting-started-05.gif" width="800"></p>
+<br>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Generated by <strong>DocFX</strong> | Documentation © 2026 by <a href="https://github.com/andywiecko">Andrzej Więckowski</a> is licensed under CC BY 4.0
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/default/partials -->
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/statictoc/partials -->
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <style>
+    .hljs {
+        background: #f5f5f5;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  </body>
+</html>

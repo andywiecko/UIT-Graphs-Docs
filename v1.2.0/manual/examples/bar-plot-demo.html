@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Bar plot demo | UIT Graphs </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Bar plot demo | UIT Graphs ">
+    
+    
+      <link rel="shortcut icon" href="../../images/favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo-small.png" alt="UIT Graphs">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+            <div class="container" style="
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+            ">
+                <div class="container hide-when-search" id="breadcrumb">
+                 <ul class="breadcrumb">
+                   <li></li>
+                 </ul>
+                </div>
+                <div class="hide-when-search" id="version-switcher"></div>
+          </div>
+        </div>
+
+        <script>
+        const base = "/UIT-Graphs-Docs/";
+
+        fetch(base + "versions.html")
+          .then(res => res.text())
+          .then(html => {
+            document.getElementById("version-switcher").innerHTML = html;
+
+            const select = document.getElementById("versions");
+            const version = window.location.pathname.split("/")[2];
+
+            if (select) {
+                select.value = version;
+            }
+          });
+
+        function goToVersion(version) {
+            window.location.href = base + version;
+        }
+
+        </script>      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bar-plot-demo">Bar plot demo</h1>
+
+<p>Below is a simple demo showing how to use <a class="xref" href="../../api/andywiecko.graphs.Graph.PlotWithBars.html#andywiecko_graphs_Graph_PlotWithBars_System_Collections_Generic_IReadOnlyList_Unity_Mathematics_float2__System_Single_andywiecko_graphs_BarAnchor_System_Single_System_String_andywiecko_graphs_PlotWithBars_ThemeStyle_"><code>PlotWithBars</code></a> to create a bar plot.</p>
+<br>
+<p align="center"><img src="../../images/example-bar-plot-demo.png" width="400"></p>
+<br>
+<pre><code class="lang-csharp">var graph = new Graph
+{
+    XAxis = { Min = -1, Max = 12, 
+        Tics = Tics.Manual(new Tic[]
+    {
+        (00, &quot;Jan&quot;), (01, &quot;Feb&quot;), (02, &quot;Mar&quot;),
+        (03, &quot;Apr&quot;), (04, &quot;May&quot;), (05, &quot;Jun&quot;),
+        (06, &quot;Jul&quot;), (07, &quot;Aug&quot;), (08, &quot;Sep&quot;),
+        (09, &quot;Oct&quot;), (10, &quot;Nov&quot;), (11, &quot;Dec&quot;),
+    }) },
+    YAxis = { Min = 0, Max = 13 },
+    Theme =
+    {
+        Key = { Position = KeyPosition.InTopLeft },
+        Grid = { Display = DisplayStyle.None },
+        Tics =
+        {
+            Direction = TicsDirection.Out,
+            Bits = (int)(BorderBits.Left | BorderBits.Bottom)
+        }
+    },
+    style = { height = 300, width = 450 },
+};
+
+graph.PlotWithBars(new float2[]
+{
+    new(0, 1),
+    new(1, 5),
+    new(2, 2),
+    new(3, 1),
+    new(4, 7),
+    new(5, 8),
+    new(6, 1),
+    new(7, 7),
+    new(8, 5),
+    new(9, 1),
+    new(10, 9),
+    new(11, 11),
+}, width: 0.3f, anchor: BarAnchor.Right, title: &quot;2025&quot;);
+
+graph.PlotWithBars(new float2[]
+{
+    new(0, 1 + 2),
+    new(1, 5 - 1),
+    new(2, 2 + 4),
+    new(3, 1 + 0),
+    new(4, 7 + 1),
+    new(5, 8 - 3),
+    new(6, 1 + 1),
+    new(7, 7 + 1),
+    new(8, 5 + 3),
+    new(9, 1 + 2),
+    new(10, 9 - 4),
+    new(11, 11 - 7),
+}, width: 0.3f, anchor: BarAnchor.Left, title: &quot;2026&quot;).SetStyle(3);
+</code></pre>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Generated by <strong>DocFX</strong> | Documentation © 2026 by <a href="https://github.com/andywiecko">Andrzej Więckowski</a> is licensed under CC BY 4.0
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/default/partials -->
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/statictoc/partials -->
+    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <style>
+    .hljs {
+        background: #f5f5f5;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  </body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Key | UIT Graphs </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Key | UIT Graphs ">
+    
+    
+      <link rel="shortcut icon" href="../../images/favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo-small.png" alt="UIT Graphs">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+            <div class="container" style="
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+            ">
+                <div class="container hide-when-search" id="breadcrumb">
+                 <ul class="breadcrumb">
+                   <li></li>
+                 </ul>
+                </div>
+                <div class="hide-when-search" id="version-switcher"></div>
+          </div>
+        </div>
+
+        <script>
+        const base = "/UIT-Graphs-Docs/";
+
+        fetch(base + "versions.html")
+          .then(res => res.text())
+          .then(html => {
+            document.getElementById("version-switcher").innerHTML = html;
+
+            const select = document.getElementById("versions");
+            const version = window.location.pathname.split("/")[2];
+
+            if (select) {
+                select.value = version;
+            }
+          });
+
+        function goToVersion(version) {
+            window.location.href = base + version;
+        }
+
+        </script>      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="key">Key</h1>
+
+<h2 id="position">Position</h2>
+<p>The user can use one of 21 predefined key positions to place the key automatically.
+Below you can find a schematic figure showing the corresponding key positions for the USS <code>--graph-key-position</code> property values.
+The graph canvas border is marked with a solid black line.
+Alternatively, you can configure this in C# using the <a class="xref" href="../../api/andywiecko.graphs.KeyPosition.html"><code>KeyPosition</code></a> enum (with the same names in CamelCase).</p>
+<p><img src="../../images/tutorial-key-01.svg" alt="key-01"></p>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_key-position-uss" role="tab" aria-controls="tabpanel_1_key-position-uss" data-tab="key-position-uss" tabindex="0" aria-selected="true"><strong>USS</strong></a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_key-position-csharp" role="tab" aria-controls="tabpanel_1_key-position-csharp" data-tab="key-position-csharp" tabindex="-1">C#</a>
+</li>
+</ul>
+<section id="tabpanel_1_key-position-uss" role="tabpanel" data-tab="key-position-uss">
+
+<pre><code class="lang-css">.graph-canvas {
+    --graph-key-position: in-top-right;
+}
+</code></pre>
+</section>
+<section id="tabpanel_1_key-position-csharp" role="tabpanel" data-tab="key-position-csharp" aria-hidden="true" hidden="hidden">
+
+<pre><code class="lang-csharp">var graph = new Graph
+{ 
+    Theme = { Key = { Position = KeyPosition.InTopRight } } 
+};
+</code></pre>
+</section>
+</div>
+<h2 id="visibility">Visibility</h2>
+<p>By default, key visibility is set automatically.
+If a <a class="xref" href="../../api/andywiecko.graphs.Graph.html"><code>Graph</code></a> contains plots with a non-null and non-empty title, the key will be rendered. Otherwise, it is hidden by default.
+Below you can find a table with possible key visibility settings, which can be configured via the USS <code>--graph-key-visibility</code> property or via C# using <code>Graph.Theme.Key.Visibility</code>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">USS</th>
+<th style="text-align: center;">C#</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>auto</code></td>
+<td style="text-align: center;"><code>KeyVisibility.Auto</code></td>
+<td style="text-align: left;">The key is visible only if it contains <em>visible</em> attached elements.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>always</code></td>
+<td style="text-align: center;"><code>KeyVisibility.Always</code></td>
+<td style="text-align: left;">The key is always visible, even if no elements are attached.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>never</code></td>
+<td style="text-align: center;"><code>KeyVisibility.Never</code></td>
+<td style="text-align: left;">The key is never visible, even if it contains elements.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>manual</code></td>
+<td style="text-align: center;"><code>KeyVisibility.Manual</code></td>
+<td style="text-align: left;">Key visibility is controlled manually using <code>key.style.display</code>.</td>
+</tr>
+</tbody>
+</table>
+<div class="tabGroup" id="tabgroup_2">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_2_key-visibility-uss" role="tab" aria-controls="tabpanel_2_key-visibility-uss" data-tab="key-visibility-uss" tabindex="0" aria-selected="true"><strong>USS</strong></a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_2_key-visibility-csharp" role="tab" aria-controls="tabpanel_2_key-visibility-csharp" data-tab="key-visibility-csharp" tabindex="-1">C#</a>
+</li>
+</ul>
+<section id="tabpanel_2_key-visibility-uss" role="tabpanel" data-tab="key-visibility-uss">
+
+<pre><code class="lang-css">.graph-canvas {
+    --graph-key-visibility: auto;
+}
+</code></pre>
+</section>
+<section id="tabpanel_2_key-visibility-csharp" role="tabpanel" data-tab="key-visibility-csharp" aria-hidden="true" hidden="hidden">
+
+<pre><code class="lang-csharp">var graph = new Graph
+{ 
+    Theme = { Key = { Visibility = KeyVisibility.Auto } } 
+};
+</code></pre>
+</section>
+</div>
+<h2 id="styling">Styling</h2>
+<p>Currently, all key styling can be achieved using built-in UI Toolkit properties.
+Check out the USS classes and default configuration:</p>
+<pre><code class="lang-css">.graph-key {
+    flex-direction: column;
+    align-items: flex-end;
+    border-width: 1px;
+    margin: 6px;
+}
+
+.graph-key-element {
+    flex-direction: row;
+    margin: 1px;
+    font-size: 12px;
+}
+
+.graph-key-style-preview {
+    width: 40px;
+    margin: 2px;
+}
+</code></pre>
+<p>Alternatively, you can configure this through C#.
+Just use the <a class="xref" href="../../api/andywiecko.graphs.Graph.Key.html#andywiecko_graphs_Graph_Key"><code>Key</code></a> reference:</p>
+<pre><code class="lang-csharp">var graph = new Graph
+{
+    Key = { style = { ... } }
+};
+</code></pre>
+<p>Keep in mind that depending on the <code>KeyPosition</code>, the object can be parented to different elements. Because of this, it is recommended to use <code>graph.Key</code> instead of querying it manually using <code>graph.Q&lt;Key&gt;()</code>.
+See the <a href="../uxml-reference.html#key">UXML reference</a> for details regarding the <a class="xref" href="../../api/andywiecko.graphs.Key.html"><code>Key</code></a> element structure.</p>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Generated by <strong>DocFX</strong> | Documentation © 2026 by <a href="https://github.com/andywiecko">Andrzej Więckowski</a> is licensed under CC BY 4.0
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/default/partials -->
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/statictoc/partials -->
+    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <style>
+    .hljs {
+        background: #f5f5f5;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  </body>
+</html>
