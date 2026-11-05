@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Plot with error bars | UIT Graphs </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Plot with error bars | UIT Graphs ">
+    
+    
+      <link rel="shortcut icon" href="../../images/favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo-small.png" alt="UIT Graphs">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+            <div class="container" style="
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+            ">
+                <div class="container hide-when-search" id="breadcrumb">
+                 <ul class="breadcrumb">
+                   <li></li>
+                 </ul>
+                </div>
+                <div class="hide-when-search" id="version-switcher"></div>
+          </div>
+        </div>
+
+        <script>
+        const base = "/UIT-Graphs-Docs/";
+
+        fetch(base + "versions.html")
+          .then(res => res.text())
+          .then(html => {
+            document.getElementById("version-switcher").innerHTML = html;
+
+            const select = document.getElementById("versions");
+            const version = window.location.pathname.split("/")[2];
+
+            if (select) {
+                select.value = version;
+            }
+          });
+
+        function goToVersion(version) {
+            window.location.href = base + version;
+        }
+
+        </script>      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="plot-with-error-bars-md">
+<h1 id="plot-with-error-bars">Plot with error bars</h1>
+
+<h2 id="data">Data</h2>
+<p>To plot error bars, you can use <a class="xref" href="../../api/andywiecko.graphs.Graph.PlotWithErrorBars.html#andywiecko_graphs_Graph_PlotWithErrorBars_System_Collections_Generic_IReadOnlyList_andywiecko_graphs_ErrorBar__System_String_andywiecko_graphs_PlotWithErrorBars_ThemeStyle_"><code>PlotWithErrorBars</code></a>.
+Unlike other plot types, this plot requires an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1"><code>IReadOnlyList&lt;ErrorBar&gt;</code></a> data series.
+To construct an <a class="xref" href="../../api/andywiecko.graphs.ErrorBar.html"><code>ErrorBar</code></a> use the constructor</p>
+<pre><code class="lang-csharp">var bar = new ErrorBar(x: 1, y: 2, xlow: 1, xhigh: 1, ylow: 1, yhigh: 3);
+</code></pre>
+<p>or one of the <em>delta</em> static methods</p>
+<pre><code class="lang-csharp">var bar = ErrorBar.DeltaY(p: new(1, 2), dy: 1);
+</code></pre>
+<p>Below is an example of a plot with error bars showing a simple linear function with added random noise.</p>
+<pre><code class="lang-csharp">var graph = new Graph
+{
+    XAxis = { Min = 0, Max = 10 },
+    YAxis = { Min = -1, Max = 15 },
+};
+
+var random = new Unity.Mathematics.Random(seed: 42);
+static float f(float x) =&gt; 1.34f * x - 0.231f;
+static float2 p(float x) =&gt; new(x, f(x));
+var dxy = math.float2(0.5f, 1f);
+float2 rnd() =&gt; math.float2(0.5f, 1) * random.NextFloat2(-1, 1);
+ErrorBar[] bars =
+{
+    ErrorBar.DeltaXY(p(1) + rnd(), dxy),
+    ErrorBar.DeltaXY(p(3) + rnd(), dxy),
+    ErrorBar.DeltaXY(p(4) + rnd(), dxy),
+    ErrorBar.DeltaXY(p(5) + rnd(), dxy),
+    ErrorBar.DeltaXY(p(7) + rnd(), dxy),
+    ErrorBar.DeltaXY(p(9) + rnd(), dxy),
+};
+graph.PlotWithLines(Sequence.Uniform(x =&gt; p(x)), theme: new() { LineWidth = 2 });
+graph.PlotWithErrorBars(bars).SetStyle(0);
+</code></pre>
+<br>
+<p align="center"><img src="../../images/plot-types-plot-with-error-bars-01.png" width="400"></p>
+<br>
+<h2 id="styling">Styling</h2>
+<p>The styling is similar to <a class="xref" href="plot-with-lines-points.html#styling"><code>PlotWithLinesPoints</code></a>, using the following properties:</p>
+<ul>
+<li>line element: <code>LineColor</code>, <code>LineWidth</code>, <code>LineDashPattern</code>,</li>
+<li>point element: <code>PointColor</code>, <code>PointFillColor</code>, <code>PointWidth</code>, <code>PointSize</code>, <code>PointStyle</code>, <code>PointDashPattern</code>,</li>
+<li>box element (see style 3): <code>BoxColor</code>, <code>BoxFillColor</code>, <code>BoxWidth</code>, <code>BoxDashPattern</code>.</li>
+</ul>
+<p>The main difference is that <code>PointStyle</code> defaults to 0 (dot) and does not increment with subsequent styling.
+In other words, it remains a dot for all <code>PlotWithErrorBars</code> calls.
+Additionally, the following properties are available for styling error bars: <code>ErrorBarStyle</code>, <code>ErrorBarFillColor</code>, and <code>ErrorBarWidth</code>.</p>
+<p>Currently, 4 error bar styles are implemented:</p>
+<ul>
+<li><p>style 0 (corresponding to the <a class="xref" href="../../api/andywiecko.graphs.ErrorBarStyle.html"><code>ErrorBarStyle.None</code></a> enum) draw nothing (just for API consistency)</p>
+</li>
+<li><p>style 1 (corresponding to the <a class="xref" href="../../api/andywiecko.graphs.ErrorBarStyle.html"><code>ErrorBarStyle.Cross</code></a> enum) <em>cross</em>-shape error bars</p>
+</li>
+</ul>
+<br>
+<p align="center"><img src="../../images/plot-types-plot-with-error-bars-02.png" width="300"></p>
+<br>
+<ul>
+<li>style 2 (corresponding to the <a class="xref" href="../../api/andywiecko.graphs.ErrorBarStyle.html"><code>ErrorBarStyle.Box</code></a> enum): box-shaped error bars.</li>
+</ul>
+<br>
+<p align="center"><img src="../../images/plot-types-plot-with-error-bars-03.png" width="300"></p>
+<br>
+<ul>
+<li>style 3 (corresponding to the <a class="xref" href="../../api/andywiecko.graphs.ErrorBarStyle.html"><code>ErrorBarStyle.CrossBox</code></a> enum): combination of style 1 and 2.</li>
+</ul>
+<br>
+<p align="center"><img src="../../images/plot-types-plot-with-error-bars-07.png" width="300"></p>
+<br>
+<p>The <code>ErrorBarFillColor</code> property specifies the fill color of the box when using style 2.
+The <code>ErrorBarWidth</code> property controls the width of the transverse lines in cross-shaped error bars.
+The width is specified in screen-space units.
+The property supports implicit conversions from <code>float</code> values and tuples of the form <code>(float?, float?)</code>, with support for <code>null</code> values.
+<code>float.NaN</code> can be used to disable the drawing of a specific error bar axis entirely.
+Alternatively, this can be achieved using the <code>ErrorBarWidth.DisableX()</code> and <code>ErrorBarWidth.DisableY()</code> methods.
+Examples:</p>
+<ul>
+<li><code>ErrorBarWidth = ErrorBarWidth.DisableY()</code></li>
+</ul>
+<br>
+<p align="center"><img src="../../images/plot-types-plot-with-error-bars-04.png" width="300"></p>
+<br>
+<ul>
+<li><code>ErrorBarWidth = (20, 70)</code></li>
+</ul>
+<br>
+<p align="center"><img src="../../images/plot-types-plot-with-error-bars-05.png" width="300"></p>
+<br>
+<p><strong>Full style demo:</strong></p>
+<br>
+<p align="center"><img src="../../images/plot-types-plot-with-error-bars-06.png" width="300"></p>
+<br>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_plot-styling-uss" role="tab" aria-controls="tabpanel_1_plot-styling-uss" data-tab="plot-styling-uss" tabindex="0" aria-selected="true"><strong>USS</strong></a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_plot-styling-csharp" role="tab" aria-controls="tabpanel_1_plot-styling-csharp" data-tab="plot-styling-csharp" tabindex="-1">C#</a>
+</li>
+</ul>
+<section id="tabpanel_1_plot-styling-uss" role="tabpanel" data-tab="plot-styling-uss">
+
+<pre><code class="lang-css">.my-plot {
+    --graph-line-width: 2;
+    --graph-line-color: magenta;
+    --graph-line-dash-pattern: &quot;4 4&quot;;
+    --graph-point-color: cyan;
+    --graph-point-size: 8;
+    --graph-error-bar-point-style: 7; 
+    --graph-point-width: 5;
+    --graph-point-dash-pattern: &quot;1 1&quot;;
+    --graph-point-fill-color: yellow;
+    --graph-error-bar-width-x: 30;
+    --graph-error-bar-width-y: 30;
+    --graph-error-bar-style: 3;
+    --graph-box-color: blue;
+    --graph-box-fill-color: rgba(0., 0., 1., 0.2);
+    --graph-box-width: 1;
+    --graph-box-dash-pattern: &quot;2 2&quot;;
+}
+</code></pre>
+</section>
+<section id="tabpanel_1_plot-styling-csharp" role="tabpanel" data-tab="plot-styling-csharp" aria-hidden="true" hidden="hidden">
+
+<pre><code class="lang-csharp">graph.PlotWithErrorBars(
+    data: new[] { ErrorBar.DeltaXY(0, 1) },
+    theme: new()
+    {
+        LineWidth = 2,
+        LineColor = Color.magenta,
+        LineDashPattern = new[] { 4f, 2f },
+        PointColor = Color.cyan,
+        PointSize = 8,
+        PointStyle = 7,
+        PointWidth = 5,
+        PointDashPattern = new[] { 1f, 1f },
+        PointFillColor = Color.yellow,
+        ErrorBarWidth = 30,
+        ErrorBarStyle = (int)ErrorBarStyle.CrossBox,
+        BoxColor = Color.blue,
+        BoxFillColor = Utils.ColorWithAlpha(Color.blue, 0.2f),
+        BoxWidth = 1,
+        BoxDashPattern = new[] { 2f , 2f },
+    }
+);
+</code></pre>
+</section>
+</div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Generated by <strong>DocFX</strong> | Documentation © 2026 by <a href="https://github.com/andywiecko">Andrzej Więckowski</a> is licensed under CC BY 4.0
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/default/partials -->
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/statictoc/partials -->
+    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <style>
+    .hljs {
+        background: #f5f5f5;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  </body>
+</html>

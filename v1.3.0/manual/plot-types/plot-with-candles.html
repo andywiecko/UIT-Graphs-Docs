@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Plot with candles | UIT Graphs </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Plot with candles | UIT Graphs ">
+    
+    
+      <link rel="shortcut icon" href="../../images/favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo-small.png" alt="UIT Graphs">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+            <div class="container" style="
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+            ">
+                <div class="container hide-when-search" id="breadcrumb">
+                 <ul class="breadcrumb">
+                   <li></li>
+                 </ul>
+                </div>
+                <div class="hide-when-search" id="version-switcher"></div>
+          </div>
+        </div>
+
+        <script>
+        const base = "/UIT-Graphs-Docs/";
+
+        fetch(base + "versions.html")
+          .then(res => res.text())
+          .then(html => {
+            document.getElementById("version-switcher").innerHTML = html;
+
+            const select = document.getElementById("versions");
+            const version = window.location.pathname.split("/")[2];
+
+            if (select) {
+                select.value = version;
+            }
+          });
+
+        function goToVersion(version) {
+            window.location.href = base + version;
+        }
+
+        </script>      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="plot-with-candles-md">
+<h1 id="plot-with-candles">Plot with candles</h1>
+
+<h2 id="data">Data</h2>
+<p>To plot candles, you can use <a class="xref" href="../../api/andywiecko.graphs.Graph.PlotWithCandles.html#andywiecko_graphs_Graph_PlotWithCandles_System_Collections_Generic_IReadOnlyList_andywiecko_graphs_Candle__System_Single_System_String_andywiecko_graphs_PlotWithCandles_ThemeStyle_"><code>PlotWithCandles</code></a>.
+Unlike other plot types, this plot requires an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1"><code>IReadOnlyList&lt;Candle&gt;</code></a> as its data series.
+To create a <a class="xref" href="../../api/andywiecko.graphs.Candle.html"><code>Candle</code></a>, use its constructor</p>
+<pre><code class="lang-csharp">var c = new Candle(x, open, low, high, close);
+</code></pre>
+<p>Below is a schematic representation of candle values:</p>
+<p><img src="../../images/plot-types-plot-with-candles-01.svg" alt="candle-01"></p>
+<p>Depending on the relationship between a candle's <code>open</code> and <code>close</code> values, its direction is determined by the <a class="xref" href="../../api/andywiecko.graphs.CandleDirection.html"><code>CandleDirection</code></a> enum.</p>
+<ul>
+<li>If <code>open</code> is less than <code>close</code>, the direction is <a class="xref" href="../../api/andywiecko.graphs.CandleDirection.html"><code>Up</code></a>.</li>
+<li>If <code>open</code> is greater than <code>close</code>, the direction is <a class="xref" href="../../api/andywiecko.graphs.CandleDirection.html"><code>Down</code></a>.</li>
+<li>Otherwise, the direction is <a class="xref" href="../../api/andywiecko.graphs.CandleDirection.html"><code>Unchanged</code></a>.</li>
+</ul>
+<p>By default, the candle body may or may not be filled with color, depending on its direction.
+See the <a href="#styling">styling</a> section to learn how to customize this behavior.</p>
+<p>Below is an example plot for candle data:</p>
+<pre><code class="lang-csharp">var graph = new Graph
+{
+    XAxis = { Min = -0.25f, Max = +2.25f },
+    YAxis = { Min = 0, Max = 1.1f },
+    style = { height = 250 },
+    Theme = 
+    { 
+        Key = { Position = KeyPosition.InTopRight },
+        Grid = { Display = DisplayStyle.None },
+    }
+};
+
+var data = new Candle[]
+{
+    new(x: 0.00f, open: 0.20f, low: 0.10f, high: 0.45f, close: 0.40f),
+    new(x: 0.25f, open: 0.40f, low: 0.30f, high: 0.65f, close: 0.60f),
+    new(x: 0.50f, open: 0.60f, low: 0.45f, high: 0.80f, close: 0.50f),
+    new(x: 0.75f, open: 0.50f, low: 0.35f, high: 0.60f, close: 0.40f),
+    new(x: 1.00f, open: 0.40f, low: 0.30f, high: 0.70f, close: 0.65f),
+    new(x: 1.25f, open: 0.65f, low: 0.55f, high: 0.90f, close: 0.85f),
+    new(x: 1.50f, open: 0.85f, low: 0.70f, high: 1.00f, close: 0.75f),
+    new(x: 1.75f, open: 0.75f, low: 0.50f, high: 0.80f, close: 0.55f),
+    new(x: 2.00f, open: 0.55f, low: 0.40f, high: 0.70f, close: 0.65f),
+};
+graph.PlotWithCandles(data, width: .1f);
+</code></pre>
+<br>
+<p align="center"><img src="../../images/plot-types-plot-with-candles-02.png" width="400"></p>
+<br>
+<h2 id="styling">Styling</h2>
+<br>
+<p align="center"><img src="../../images/plot-types-plot-with-candles-03.png" width="400"></p>
+<br>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_plot-styling-uss" role="tab" aria-controls="tabpanel_1_plot-styling-uss" data-tab="plot-styling-uss" tabindex="0" aria-selected="true"><strong>USS</strong></a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_plot-styling-csharp" role="tab" aria-controls="tabpanel_1_plot-styling-csharp" data-tab="plot-styling-csharp" tabindex="-1">C#</a>
+</li>
+</ul>
+<section id="tabpanel_1_plot-styling-uss" role="tabpanel" data-tab="plot-styling-uss">
+
+<pre><code class="lang-css">.my-plot {
+    --graph-fill-color-up: blue;
+    --graph-fill-color-down: red;
+    --graph-fill-color-unchanged: black;
+
+    --graph-line-color-up: magenta;
+    --graph-line-color-down: cyan;
+    --graph-line-color-unchanged: black;
+
+    --graph-line-width-up: 2;
+    --graph-line-width-down: 4;
+    --graph-line-width-unchanged: 6;
+
+    --graph-line-dash-pattern-up: &quot;2 2&quot;;
+    --graph-line-dash-pattern-down: &quot;8 8&quot;;
+    --graph-line-dash-pattern-unchanged: &quot;1&quot;;
+}
+</code></pre>
+</section>
+<section id="tabpanel_1_plot-styling-csharp" role="tabpanel" data-tab="plot-styling-csharp" aria-hidden="true" hidden="hidden">
+
+<pre><code class="lang-csharp">var data = new Candle[]
+{
+    new(x: 0, open: -1, low: -2, high: +2, close: +1),
+    new(x: 1, open: 0, low: -2, high: +2, close: 0),
+    new(x: 2, open: +1, low: -2, high: +2, close: -1),
+};
+graph.PlotWithCandles(data, width: .5f, theme: new()
+{
+    FillColorUp = Color.blue,
+    FillColorDown = Color.red,
+    FillColorUnchanged = Color.black,
+
+    LineColorUp = Color.magenta,
+    LineColorDown = Color.cyan,
+    LineColorUnchanged = Color.black,
+
+    LineWidthUp = 2,
+    LineWidthDown = 4,
+    LineWidthUnchanged = 6,
+
+    LineDashPatternUp = new[] { 2f, 2 },
+    LineDashPatternDown = new[] { 8f, 8 },
+    LineDashPatternUnchanged = new[] { 1f },
+});
+</code></pre>
+</section>
+</div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Generated by <strong>DocFX</strong> | Documentation © 2026 by <a href="https://github.com/andywiecko">Andrzej Więckowski</a> is licensed under CC BY 4.0
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/default/partials -->
+    <!-- https://github.com/dotnet/docfx/tree/main/templates/statictoc/partials -->
+    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <style>
+    .hljs {
+        background: #f5f5f5;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  </body>
+</html>
