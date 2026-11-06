@@ -4636,15 +4636,15 @@ references:
   commentId: Overload:andywiecko.graphs.Sequence.Recalculate
   fullName: andywiecko.graphs.Sequence.Recalculate
   nameWithType: Sequence.Recalculate
-- uid: andywiecko.graphs.Sequence.Uniform(System.Func{System.Single,Unity.Mathematics.float2},System.Int32)
-  name: Uniform(Func<float, float2>, int)
-  href: api/andywiecko.graphs.Sequence.Uniform.html#andywiecko_graphs_Sequence_Uniform_System_Func_System_Single_Unity_Mathematics_float2__System_Int32_
-  commentId: M:andywiecko.graphs.Sequence.Uniform(System.Func{System.Single,Unity.Mathematics.float2},System.Int32)
-  name.vb: Uniform(Func(Of Single, float2), Integer)
-  fullName: andywiecko.graphs.Sequence.Uniform(System.Func<float, Unity.Mathematics.float2>, int)
-  fullName.vb: andywiecko.graphs.Sequence.Uniform(System.Func(Of Single, Unity.Mathematics.float2), Integer)
-  nameWithType: Sequence.Uniform(Func<float, float2>, int)
-  nameWithType.vb: Sequence.Uniform(Func(Of Single, float2), Integer)
+- uid: andywiecko.graphs.Sequence.Uniform(System.Func{System.Single,System.Single},System.Int32)
+  name: Uniform(Func<float, float>, int)
+  href: api/andywiecko.graphs.Sequence.Uniform.html#andywiecko_graphs_Sequence_Uniform_System_Func_System_Single_System_Single__System_Int32_
+  commentId: M:andywiecko.graphs.Sequence.Uniform(System.Func{System.Single,System.Single},System.Int32)
+  name.vb: Uniform(Func(Of Single, Single), Integer)
+  fullName: andywiecko.graphs.Sequence.Uniform(System.Func<float, float>, int)
+  fullName.vb: andywiecko.graphs.Sequence.Uniform(System.Func(Of Single, Single), Integer)
+  nameWithType: Sequence.Uniform(Func<float, float>, int)
+  nameWithType.vb: Sequence.Uniform(Func(Of Single, Single), Integer)
 - uid: andywiecko.graphs.Sequence.Uniform*
   name: Uniform
   href: api/andywiecko.graphs.Sequence.Uniform.html

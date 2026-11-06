@@ -137,7 +137,7 @@ ErrorBar[] bars =
     ErrorBar.DeltaXY(p(7) + rnd(), dxy),
     ErrorBar.DeltaXY(p(9) + rnd(), dxy),
 };
-graph.PlotWithLines(Sequence.Uniform(x =&gt; p(x)), theme: new() { LineWidth = 2 });
+graph.PlotWithLines(Sequence.Uniform(x =&gt; f(x)), theme: new() { LineWidth = 2 });
 graph.PlotWithErrorBars(bars).SetStyle(0);
 </code></pre>
 <br>

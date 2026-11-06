@@ -127,7 +127,7 @@ ErrorBar df(float x) =&gt; ErrorBar.DeltaXY(
     p: math.float2(x, f(x)) + 0.005f * random.NextFloat2Direction(),
     dxy: new(2.5f, 0.01f)
 );
-var data = Sequence.Uniform(x =&gt; math.float2(x, f(x)));
+var data = Sequence.Uniform(x =&gt; f(x));
 var errors = new[]
 {
     df(01),
